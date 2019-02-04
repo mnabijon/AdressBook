@@ -1,7 +1,6 @@
 <?php
 include "info.php";
 $search=$_POST['search'];
-
 //SQL statement to select what to search
 $sql="SELECT * FROM contacts
 WHERE email like '%$search%' OR
