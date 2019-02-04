@@ -6,5 +6,4 @@ if (!isset($_SESSION['Authenticated'])
    header("location: index.html");
    exit();
 }
-
 ?>
